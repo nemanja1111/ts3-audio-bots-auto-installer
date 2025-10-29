@@ -108,8 +108,8 @@ if [ "$deb10" = "1" ]; then
   git clone https://github.com/notrengele/ts3_audiobots.git
   dotnet build --framework netcoreapp2.2 --configuration Release TS3AudioBot
 
-  wget https://github.com/Splamy/TS3AudioBot/releases/download/0.11.0/TS3AudioBot_dotnet_core_3.1.zip
-  unzip TS3AudioBot_dotnet_core_3.1.zip
+  wget https://github.com/Splamy/TS3AudioBot.git.
+  unzip TS3AudioBot.git.
   screen -mdS ts3ab dotnet TS3AudioBot.dll
   
   clear
@@ -358,3 +358,4 @@ fi
 
 
  
+
